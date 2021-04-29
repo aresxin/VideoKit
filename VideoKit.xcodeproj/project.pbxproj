@@ -33,6 +33,9 @@
 		5F6D54E8263A43FD00CB3E3A /* MediaComposition+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6D54E7263A43FD00CB3E3A /* MediaComposition+Animation.swift */; };
 		5F6D54EA263A493400CB3E3A /* BaseLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6D54E9263A493400CB3E3A /* BaseLayer.swift */; };
 		5F6D54EC263A4C1B00CB3E3A /* PositionAnimationLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6D54EB263A4C1B00CB3E3A /* PositionAnimationLayer.swift */; };
+		5F6D54F3263A7D0900CB3E3A /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6D54EF263A7D0900CB3E3A /* ImageExtension.swift */; };
+		5F6D54F4263A7D0900CB3E3A /* VideoCreater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6D54F0263A7D0900CB3E3A /* VideoCreater.swift */; };
+		5F6D54F5263A7D0900CB3E3A /* VideoCreaterError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6D54F1263A7D0900CB3E3A /* VideoCreaterError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +67,9 @@
 		5F6D54E7263A43FD00CB3E3A /* MediaComposition+Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MediaComposition+Animation.swift"; sourceTree = "<group>"; };
 		5F6D54E9263A493400CB3E3A /* BaseLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLayer.swift; sourceTree = "<group>"; };
 		5F6D54EB263A4C1B00CB3E3A /* PositionAnimationLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionAnimationLayer.swift; sourceTree = "<group>"; };
+		5F6D54EF263A7D0900CB3E3A /* ImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
+		5F6D54F0263A7D0900CB3E3A /* VideoCreater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCreater.swift; sourceTree = "<group>"; };
+		5F6D54F1263A7D0900CB3E3A /* VideoCreaterError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCreaterError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,7 @@
 		5F5718DC26395E8D0028128C /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				5F6D54ED263A7D0900CB3E3A /* VideoGenerator */,
 				5F5718DE26395EE90028128C /* AudiosComposition.swift */,
 				5F5718E026395EE90028128C /* MCConfig.swift */,
 				5F5718E126395EE90028128C /* MediaAVComposition.swift */,
@@ -141,6 +148,16 @@
 				5F6D54D5263A3F6E00CB3E3A /* overlay.png */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		5F6D54ED263A7D0900CB3E3A /* VideoGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				5F6D54EF263A7D0900CB3E3A /* ImageExtension.swift */,
+				5F6D54F0263A7D0900CB3E3A /* VideoCreater.swift */,
+				5F6D54F1263A7D0900CB3E3A /* VideoCreaterError.swift */,
+			);
+			path = VideoGenerator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,12 +246,15 @@
 				5F6D54E8263A43FD00CB3E3A /* MediaComposition+Animation.swift in Sources */,
 				5F5718E726395EE90028128C /* MCConfig.swift in Sources */,
 				5F6D54EA263A493400CB3E3A /* BaseLayer.swift in Sources */,
+				5F6D54F5263A7D0900CB3E3A /* VideoCreaterError.swift in Sources */,
 				5F5718CD26395DFC0028128C /* ViewController.swift in Sources */,
 				5F6D54EC263A4C1B00CB3E3A /* PositionAnimationLayer.swift in Sources */,
 				5F5718C926395DFC0028128C /* AppDelegate.swift in Sources */,
 				5F5718CB26395DFC0028128C /* SceneDelegate.swift in Sources */,
 				5F5718E526395EE90028128C /* AudiosComposition.swift in Sources */,
 				5F5718E826395EE90028128C /* MediaAVComposition.swift in Sources */,
+				5F6D54F4263A7D0900CB3E3A /* VideoCreater.swift in Sources */,
+				5F6D54F3263A7D0900CB3E3A /* ImageExtension.swift in Sources */,
 				5F5718E626395EE90028128C /* MediaComposition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
